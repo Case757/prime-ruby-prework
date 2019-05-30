@@ -4,6 +4,7 @@ def prime?(num)
   myArr.each do |i|
     return false if num % i == 0
   end
+  true
 end
 
 # Math.sqrt(num).to_i.downto(2).each {|i| return false if num % i == 0}
