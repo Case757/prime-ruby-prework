@@ -1,7 +1,8 @@
 def prime?(num)
   return false if num <= 1
-  myArr = 2..Math.sqrt(num)
-  for i in myArr
+  myArr = 2..sqrt(num)
+  myArr.each do |i|
+    return false if num % i == 0
     end
   end
 end
