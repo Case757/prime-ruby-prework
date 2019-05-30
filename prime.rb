@@ -1,6 +1,7 @@
 def prime?(num)
-  return false if num <= 1]
-  for 
+  return false if num <= 1
+  myArr = 2..Math.sqrt(num)
+  for i in myArr
     end
   end
 end
