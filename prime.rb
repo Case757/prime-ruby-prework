@@ -1,8 +1,6 @@
 def prime?(num)
   return false if num <= 1
-  for i in 2..100
-    if i % num == 0
-      return false
+  for 
     end
   end
 end
