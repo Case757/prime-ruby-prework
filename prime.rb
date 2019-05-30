@@ -6,5 +6,3 @@ def prime?(num)
   end
   true
 end
-
-# Math.sqrt(num).to_i.downto(2).each {|i| return false if num % i == 0}
