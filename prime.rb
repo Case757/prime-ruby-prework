@@ -3,7 +3,6 @@ def prime?(num)
   myArr = 2..sqrt(num)
   myArr.each do |i|
     return false if num % i == 0
-    end
   end
 end
 
